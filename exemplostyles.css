@@ -1,0 +1,104 @@
+*{  
+    
+    margin: -0;
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+input{
+    padding: 5px;
+
+}
+
+
+h2{
+    margin-top: 50px;
+
+  }
+
+
+.formulario{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;       
+
+
+   }
+
+.botaoRegistro{
+    
+    padding: 10px;
+    border: rgb(125, 235, 228);
+    color: white;
+    background-color: rgb(15, 164, 124);
+    border-radius: 4px;
+
+}
+
+.botaoRegistro:hover{
+    
+    padding: 10px;
+    border: rgb(125, 235, 228);
+    color: white;
+    background-color: rgb(4, 118, 87);
+    border-radius: 4px;
+
+}
+
+.botao{
+    padding-top: 20px;
+}
+.botaoUserPesquisa{
+    padding: 10px;
+    margin-top: 10px;
+    border: turquoise;
+    background-color: tomato;
+    color: white;
+    border-radius: 4px;
+    
+ 
+}
+
+.botaoUserPesquisa:hover{
+    padding: 10px;
+    margin-top: 10px;
+    border: turquoise;
+    background-color: rgb(218, 60, 32);
+    color: white;
+    border-radius: 4px;
+    
+ 
+}
+
+#userR{
+    width: 60%;
+    border:none;
+    
+    
+
+}
+
+#userR td, #userR th{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: burlywood;
+    
+
+}
+
+#userR th{
+    background-color: black;
+    color: white;
+
+}
